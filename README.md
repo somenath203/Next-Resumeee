@@ -10,7 +10,7 @@ Next Resumeee is a comprehensive full stack Resume Builder Application developed
 ## Features
 
 ### User Features
-- **Resume Creation:** Easily create resumes by entering your details and selecting from a range of templates.
+- **Resume Creation:** Create resumes effortlessly by filling out your details in the Profile section and choosing from a variety of templates.
 - **Template Variety:** Access both free and premium templates to suit different needs.
 - **Premium Downloads:** Premium subscribers can download any resume template available.
 

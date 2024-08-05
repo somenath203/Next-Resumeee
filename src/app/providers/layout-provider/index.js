@@ -67,7 +67,7 @@ const LayoutProvider = ({ children }) => {
 
       await signOut(); 
 
-      message.success('you are successfully logged out.');
+      message.success('you have been successfully logged out');
 
     } catch (error) {
 

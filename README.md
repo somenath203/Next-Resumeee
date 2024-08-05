@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Resumeee
 
-## Getting Started
+## Demo Project Video of the Project
 
-First, run the development server:
+https://www.youtube.com/watch?v=9PH7AZsM9YM
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Introduction
+Next Resumeee is a comprehensive full stack Resume Builder Application developed using NextJS. It allows users to generate their resumes with ease by selecting from various templates and filling in their details. The application offers both free and premium templates. Users with a premium subscription can download any resume template they prefer. Additionally, the application features robust admin functionalities for managing templates and viewing user information in a structured format.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### User Features
+- **Resume Creation:** Easily create resumes by entering your details and selecting from a range of templates.
+- **Template Variety:** Access both free and premium templates to suit different needs.
+- **Premium Downloads:** Premium subscribers can download any resume template available.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Admin Features
+- **Template Management:** Admins can add and edit resume templates.
+- **User and Subscription Management:** Admins can view detailed user and subscription information in a tabular format.
 
-## Learn More
+## Technologies Used
+- **NextJS:** For building the front-end and back-end of the application.
+- **Clerk:** For user authentication and management.
+- **Tailwind CSS:** For styling the application.
+- **Ant Design:** For UI components.
+- **MongoDB:** For storing user details, subscription details, and template structures.
+- **Firebase:** For storing resume thumbnail photos.
+- **Zustand:** For global state management.
+- **Stripe:** For handling payments and subscriptions.
 
-To learn more about Next.js, take a look at the following resources:
+## Live Preview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://next-resumeee.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Note regarding purchasing subscription using Stripe
 
-## Deploy on Vercel
+To make a successful payment using Stripe for premium resume templates in this project, you can use the following test card number provided by Stripe:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Indian Test Visa Card:** `4000 0035 6000 0008`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For the card details:
+- **Card Expiry Date:** Use any date in the future. For example, if today's date is 08/24 (August 2024), you can use an expiry date like 05/28 (May 2028), where `08` and `05` are months, and `24` and `28` are years.
+- **Security Code (CVV):** Use `111` or `123`.
+
+For more information, refer to the demo YouTube video of the project as mentioned above.

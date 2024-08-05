@@ -1,0 +1,38 @@
+{
+  "name": "next-resumee-builder",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.2.12",
+    "@codemirror/lang-html": "^6.4.9",
+    "@stripe/react-stripe-js": "^2.7.3",
+    "@stripe/stripe-js": "^4.1.0",
+    "@uiw/react-codemirror": "^4.23.0",
+    "antd": "^5.19.4",
+    "codemirror": "^6.0.1",
+    "dayjs": "^1.11.12",
+    "firebase": "^10.12.5",
+    "lucide-react": "^0.424.0",
+    "mongoose": "^8.5.2",
+    "mustache": "^4.2.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-to-print": "^2.15.1",
+    "stripe": "^16.6.0",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.5.4"
+  }
+}

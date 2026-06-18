@@ -28,10 +28,6 @@ Next Resumeee is a comprehensive full stack Resume Builder Application developed
 - **Zustand:** For global state management.
 - **Stripe:** For handling payments and subscriptions.
 
-## Live Preview
-
-https://next-resumeee.vercel.app/
-
 ## Note regarding purchasing subscription using Stripe
 
 To make a successful payment using Stripe for premium resume templates in this project, you can use the following test card number provided by Stripe:
